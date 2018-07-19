@@ -1,24 +1,9 @@
-# laravel-multi-auth-admin
-> 包含前后台登录认证以及权限管理的后台系统，模板为`color admin`
-
-![image1](http://7xuntv.com1.z0.glb.clouddn.com/zhanghaobao1.png)
-
-![image2](http://7xuntv.com1.z0.glb.clouddn.com/zhanghaobao2.png)
-
-![image3](http://7xuntv.com1.z0.glb.clouddn.com/zhanghaobao3.png)
-
-# 说明
-如果喜欢请点个star
-
-需要color admin的朋友请群下载，Laravel开发交流群：658533928
-
-![image4](http://7xuntv.com1.z0.glb.clouddn.com/658533928.JPG?imageMogr2/thumbnail/!50p)
 
 # 安装
 
 ## 克隆资源库
 ```shell
-git clone https://github.com/jwwb681232/laravel-multi-auth-admin.git ./
+git clone https://github.com/mengfanshang/wine.git 
 ```
 ## 安装依赖关系
 ```shell
