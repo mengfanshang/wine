@@ -34,7 +34,7 @@ body{min-width:1200px;}
 .header{height:80px; background:#fff;}
 .contentbox .wow{display:inline-block;}
 
-.header .logo{float:left; margin-top:18px;}
+.header .logo{float:left; margin-top:5px;}
 .header .nav{float:right; width:630x;}
 .header .nav ul li{float:left; padding:0 15px;}
 .header .nav ul li a{display:block; line-height:80px; font-size:16px; position:relative;}

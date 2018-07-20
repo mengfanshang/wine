@@ -175,7 +175,7 @@ return [
         /**
          * laravel-debugbar
          */
-        Barryvdh\Debugbar\ServiceProvider::class,
+//        Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*

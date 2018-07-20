@@ -17,13 +17,14 @@
 <div class="contentbox">
 	<div class="topper">
     	<div class="container">
-        	<span class="wow slideInLeft">您好，欢迎来到江苏旭峰科技有限公司官网</span>
-            <p class="wow slideInRight">咨询电话：400-961-0588</p>
+            <span class="wow slideInLeft">您好，欢迎来到河北山佳环保科技有限公司官网</span>
+            <p class="wow slideInRight">咨询电话：15333315114 / 13483678666</p>
+            <p style="margin-right: 15px"><a href="<?php echo e(route('admin.index')); ?>">管理中心</a></p>
         </div>
     </div>
     <div class="header">
     	<div class="container">
-        	<div class="logo"><a href="/"><img src="../images/logo.png" /></a></div>
+        	<div class="logo"><a href="/"><img src="../images/logo.jpeg" style="width: 345px ;height: 80px"/></a></div>
             <div class="nav">
             	<ul>
                 	<li><a href="/">首页</a></li>
