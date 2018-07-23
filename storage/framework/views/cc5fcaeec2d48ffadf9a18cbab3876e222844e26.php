@@ -19,7 +19,7 @@
         <!-- begin sidebar nav -->
         <ul class="nav">
             <?php foreach($adminMenus as $adminMenu): ?>
-            <?php if(auth('admin')->user()->can($adminMenu['slug'])): ?>
+<?php /*            <?php if(auth('admin')->user()->can($adminMenu['slug'])): ?>*/ ?>
             <li class="has-sub">
                 <a href="javascript:;">
                     <?php if(isset($adminMenu['child'])): ?>
@@ -49,7 +49,7 @@
                 </ul>
                 <?php endif; ?>
             </li>
-            <?php endif; ?>
+            <?php /*<?php endif; ?>*/ ?>
             <?php endforeach; ?>
             <!-- begin sidebar minify button -->
             <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>

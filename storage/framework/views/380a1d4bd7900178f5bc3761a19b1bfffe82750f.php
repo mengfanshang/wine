@@ -70,8 +70,9 @@ $params = end($params);
     </div>
     <div class="copr">
         <div class="container">
-            <span>Copyright © 2013 - 2017 江苏旭峰科技有限公司 All Rights Reserved  苏ICP备14031554号-4  苏公网安备32131102000333号</span>
-            <a href="#">技术支持：沃尔普科技</a>
+            <?php /*<span>Copyright © 2013 - 2017 河北山佳环保科技有限公司 All Rights Reserved  苏ICP备14031554号-4  苏公网安备32131102000333号</span>*/ ?>
+            <span> 河北山佳环保科技有限公司 </span>
+            <a href="#">技术支持：----</a>
         </div>
     </div>
 </div>

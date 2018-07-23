@@ -5,7 +5,7 @@
 <!--<![endif]-->
 <head>
     <meta charset="utf-8" />
-    <title>管理后台</title>
+    <title>河北山佳环保科技管理后台</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -51,14 +51,14 @@
 
             <!-- begin header navigation right -->
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <form class="navbar-form full-width">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="关键字" />
-                            <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
-                        </div>
-                    </form>
-                </li>
+                <?php /*<li>*/ ?>
+                    <?php /*<form class="navbar-form full-width">*/ ?>
+                        <?php /*<div class="form-group">*/ ?>
+                            <?php /*<input type="text" class="form-control" placeholder="关键字" />*/ ?>
+                            <?php /*<button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>*/ ?>
+                        <?php /*</div>*/ ?>
+                    <?php /*</form>*/ ?>
+                <?php /*</li>*/ ?>
                 <li class="dropdown">
                     <a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle f-s-14">
                         <i class="fa fa-bell-o"></i>
@@ -150,80 +150,80 @@
     <!-- end #content -->
 
     <!-- begin theme-panel -->
-    <div class="theme-panel">
-        <a href="javascript:;" data-click="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
-        <div class="theme-panel-content">
-            <h5 class="m-t-0">配色</h5>
-            <ul class="theme-list clearfix">
-                <li class="active"><a href="javascript:;" class="bg-green" data-theme="default" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Default">&nbsp;</a></li>
-                <li><a href="javascript:;" class="bg-red" data-theme="red" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Red">&nbsp;</a></li>
-                <li><a href="javascript:;" class="bg-blue" data-theme="blue" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Blue">&nbsp;</a></li>
-                <li><a href="javascript:;" class="bg-purple" data-theme="purple" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Purple">&nbsp;</a></li>
-                <li><a href="javascript:;" class="bg-orange" data-theme="orange" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Orange">&nbsp;</a></li>
-                <li><a href="javascript:;" class="bg-black" data-theme="black" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Black">&nbsp;</a></li>
-            </ul>
-            <div class="divider"></div>
-            <div class="row m-t-10">
-                <div class="col-md-5 control-label<?php /* double-line*/ ?>">头部样式</div>
-                <div class="col-md-7">
-                    <select name="header-styling" class="form-control input-sm">
-                        <option value="1">默认</option>
-                        <option value="2">反色</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row m-t-10">
-                <div class="col-md-5 control-label">头部</div>
-                <div class="col-md-7">
-                    <select name="header-fixed" class="form-control input-sm">
-                        <option value="1">固定</option>
-                        <option value="2">默认</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row m-t-10">
-                <div class="col-md-5 control-label double-line">侧边栏 样式</div>
-                <div class="col-md-7">
-                    <select name="sidebar-styling" class="form-control input-sm">
-                        <option value="1">默认</option>
-                        <option value="2">栅格</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row m-t-10">
-                <div class="col-md-5 control-label">侧边栏</div>
-                <div class="col-md-7">
-                    <select name="sidebar-fixed" class="form-control input-sm">
-                        <option value="1">固定</option>
-                        <option value="2">默认</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row m-t-10">
-                <div class="col-md-5 control-label double-line">侧边栏 渐变</div>
-                <div class="col-md-7">
-                    <select name="content-gradient" class="form-control input-sm">
-                        <option value="1">关闭</option>
-                        <option value="2">打开</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row m-t-10">
-                <div class="col-md-5 control-label">内容风格</div>
-                <div class="col-md-7">
-                    <select name="content-styling" class="form-control input-sm">
-                        <option value="1">默认</option>
-                        <option value="2">黑色</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row m-t-10">
-                <div class="col-md-12">
-                    <a href="#" class="btn btn-inverse btn-block btn-sm" data-click="reset-local-storage"><i class="fa fa-refresh m-r-3"></i> 重置本地样式配置</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php /*<div class="theme-panel">*/ ?>
+        <?php /*<a href="javascript:;" data-click="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>*/ ?>
+        <?php /*<div class="theme-panel-content">*/ ?>
+            <?php /*<h5 class="m-t-0">配色</h5>*/ ?>
+            <?php /*<ul class="theme-list clearfix">*/ ?>
+                <?php /*<li class="active"><a href="javascript:;" class="bg-green" data-theme="default" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Default">&nbsp;</a></li>*/ ?>
+                <?php /*<li><a href="javascript:;" class="bg-red" data-theme="red" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Red">&nbsp;</a></li>*/ ?>
+                <?php /*<li><a href="javascript:;" class="bg-blue" data-theme="blue" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Blue">&nbsp;</a></li>*/ ?>
+                <?php /*<li><a href="javascript:;" class="bg-purple" data-theme="purple" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Purple">&nbsp;</a></li>*/ ?>
+                <?php /*<li><a href="javascript:;" class="bg-orange" data-theme="orange" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Orange">&nbsp;</a></li>*/ ?>
+                <?php /*<li><a href="javascript:;" class="bg-black" data-theme="black" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Black">&nbsp;</a></li>*/ ?>
+            <?php /*</ul>*/ ?>
+            <?php /*<div class="divider"></div>*/ ?>
+            <?php /*<div class="row m-t-10">*/ ?>
+                <?php /*<div class="col-md-5 control-label*/ ?><?php /* double-line*/ ?><?php /*">头部样式</div>*/ ?>
+                <?php /*<div class="col-md-7">*/ ?>
+                    <?php /*<select name="header-styling" class="form-control input-sm">*/ ?>
+                        <?php /*<option value="1">默认</option>*/ ?>
+                        <?php /*<option value="2">反色</option>*/ ?>
+                    <?php /*</select>*/ ?>
+                <?php /*</div>*/ ?>
+            <?php /*</div>*/ ?>
+            <?php /*<div class="row m-t-10">*/ ?>
+                <?php /*<div class="col-md-5 control-label">头部</div>*/ ?>
+                <?php /*<div class="col-md-7">*/ ?>
+                    <?php /*<select name="header-fixed" class="form-control input-sm">*/ ?>
+                        <?php /*<option value="1">固定</option>*/ ?>
+                        <?php /*<option value="2">默认</option>*/ ?>
+                    <?php /*</select>*/ ?>
+                <?php /*</div>*/ ?>
+            <?php /*</div>*/ ?>
+            <?php /*<div class="row m-t-10">*/ ?>
+                <?php /*<div class="col-md-5 control-label double-line">侧边栏 样式</div>*/ ?>
+                <?php /*<div class="col-md-7">*/ ?>
+                    <?php /*<select name="sidebar-styling" class="form-control input-sm">*/ ?>
+                        <?php /*<option value="1">默认</option>*/ ?>
+                        <?php /*<option value="2">栅格</option>*/ ?>
+                    <?php /*</select>*/ ?>
+                <?php /*</div>*/ ?>
+            <?php /*</div>*/ ?>
+            <?php /*<div class="row m-t-10">*/ ?>
+                <?php /*<div class="col-md-5 control-label">侧边栏</div>*/ ?>
+                <?php /*<div class="col-md-7">*/ ?>
+                    <?php /*<select name="sidebar-fixed" class="form-control input-sm">*/ ?>
+                        <?php /*<option value="1">固定</option>*/ ?>
+                        <?php /*<option value="2">默认</option>*/ ?>
+                    <?php /*</select>*/ ?>
+                <?php /*</div>*/ ?>
+            <?php /*</div>*/ ?>
+            <?php /*<div class="row m-t-10">*/ ?>
+                <?php /*<div class="col-md-5 control-label double-line">侧边栏 渐变</div>*/ ?>
+                <?php /*<div class="col-md-7">*/ ?>
+                    <?php /*<select name="content-gradient" class="form-control input-sm">*/ ?>
+                        <?php /*<option value="1">关闭</option>*/ ?>
+                        <?php /*<option value="2">打开</option>*/ ?>
+                    <?php /*</select>*/ ?>
+                <?php /*</div>*/ ?>
+            <?php /*</div>*/ ?>
+            <?php /*<div class="row m-t-10">*/ ?>
+                <?php /*<div class="col-md-5 control-label">内容风格</div>*/ ?>
+                <?php /*<div class="col-md-7">*/ ?>
+                    <?php /*<select name="content-styling" class="form-control input-sm">*/ ?>
+                        <?php /*<option value="1">默认</option>*/ ?>
+                        <?php /*<option value="2">黑色</option>*/ ?>
+                    <?php /*</select>*/ ?>
+                <?php /*</div>*/ ?>
+            <?php /*</div>*/ ?>
+            <?php /*<div class="row m-t-10">*/ ?>
+                <?php /*<div class="col-md-12">*/ ?>
+                    <?php /*<a href="#" class="btn btn-inverse btn-block btn-sm" data-click="reset-local-storage"><i class="fa fa-refresh m-r-3"></i> 重置本地样式配置</a>*/ ?>
+                <?php /*</div>*/ ?>
+            <?php /*</div>*/ ?>
+        <?php /*</div>*/ ?>
+    <?php /*</div>*/ ?>
     <!-- end theme-panel -->
 
     <!-- begin scroll to top btn -->
