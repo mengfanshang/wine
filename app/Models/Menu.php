@@ -21,4 +21,18 @@ class Menu extends Model implements Transformable
         'sort'
     ];
 
+    static function demo($arr,$id,$level)
+    {
+        $list =array();
+        foreach ($arr as $k=>$v){
+            if ($v['parent_id'] == $id){
+                $v['level']=$level;
+                $v['children'] = self::demo($arr,$v['id'],$level+1);
+                $list[] = $v;
+            }
+        }
+        return $list;
+    }
+
+
 }

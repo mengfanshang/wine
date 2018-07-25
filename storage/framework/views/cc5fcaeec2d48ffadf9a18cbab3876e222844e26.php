@@ -1,8 +1,5 @@
-<?php /*echo '<pre>';print_r($adminMenus);*/?>
 <div id="sidebar" class="sidebar sidebar-transparent">
-    <!-- begin sidebar scrollbar -->
     <div data-scrollbar="true" data-height="100%">
-        <!-- begin sidebar user -->
         <ul class="nav">
             <li class="nav-profile">
                 <div class="image">
@@ -15,49 +12,35 @@
                 </div>
             </li>
         </ul>
-        <!-- end sidebar user -->
-        <!-- begin sidebar nav -->
         <ul class="nav">
-            <?php foreach($adminMenus as $adminMenu): ?>
-<?php /*            <?php if(auth('admin')->user()->can($adminMenu['slug'])): ?>*/ ?>
+            <?php foreach($data as $adminMenu): ?>
+            <?php if(isset($adminMenu['parent_id'])&&$adminMenu['parent_id']==0): ?>
             <li class="has-sub">
                 <a href="javascript:;">
-                    <?php if(isset($adminMenu['child'])): ?>
                     <b class="caret pull-right"></b>
-                    <?php endif; ?>
-
                     <?php if(!empty($adminMenu['icon'])): ?>
                         <i class="<?php echo e($adminMenu['icon']); ?>"></i>
                     <?php endif; ?>
-                    <span><?php echo e($adminMenu['name']); ?></span>
+                        <span><?php echo e($adminMenu['name']); ?></span>
                 </a>
-                <?php if(isset($adminMenu['child'])): ?>
-                <ul class="sub-menu">
-                    <?php foreach($adminMenu['child'] as $menus): ?>
-                        <?php if(auth('admin')->user()->can($menus['slug'])): ?>
-                            <li class="has-sub <?php if($menus['url'] == Request::path()): ?> active <?php endif; ?>">
-                                <a href="<?php echo e(url($menus['url'])); ?>">
-                                    <?php if(isset($menus['child'])): ?>
-                                        <b class="caret pull-right"></b>
-                                    <?php endif; ?>
-                                    <?php echo e($menus['name']); ?>
+                <?php if(isset($adminMenu['children'])): ?>
+                        <ul class="sub-menu">
+                            <?php foreach($adminMenu['children'] as $value): ?>
+                            <li class=" <?php if($value['url'] == Request::path()): ?> active <?php endif; ?>">
+                                <a href="<?php echo e(url($value['url'])); ?>">
+                                    <?php echo e($value['name']); ?>
 
                                 </a>
                             </li>
-                        <?php endif; ?>
-                    <?php endforeach; ?>
-                </ul>
+                            <?php endforeach; ?>
+                        </ul>
                 <?php endif; ?>
             </li>
-            <?php /*<?php endif; ?>*/ ?>
+            <?php endif; ?>
             <?php endforeach; ?>
-            <!-- begin sidebar minify button -->
             <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
-            <!-- end sidebar minify button -->
         </ul>
-        <!-- end sidebar nav -->
     </div>
-    <!-- end sidebar scrollbar -->
 </div>
 <script>
     var activeNode = $('.active');
